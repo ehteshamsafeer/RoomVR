@@ -431,8 +431,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Flow\Framework\Math\Vector3\DeprecatedVector3Add.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Flow\Ports\ControlOutput.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Flow\Framework\Graph\GetGraph.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Flow\Framework\Variables\Obsolete\SetSceneVariable.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Flow\Framework\Events\Physics2D\OnCollisionEnter2D.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Flow\Framework\Variables\Obsolete\SetSceneVariable.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Flow\Framework\Control\SelectOnEnum.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Flow\Framework\Math\Generic\DeprecatedGenericAdd.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Runtime\VisualScripting.Flow\Framework\Events\Physics2D\OnTriggerStay2D.cs" />
@@ -821,19 +821,19 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
