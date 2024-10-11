@@ -1,0 +1,1651 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.25f1 (530ae0ba3889) revision 5442272'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16267 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity Saves\2022.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Game Development/Room VR
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+56292
+Successfully changed project path to: D:/Game Development/Room VR
+D:/Game Development/Room VR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7368] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 2109670965 [EditorId] 2109670965 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6GMTE80) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7368] Host "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 2109670965 [EditorId] 2109670965 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6GMTE80) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Refreshing native plugins compatible for Editor in 279.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.25f1 (530ae0ba3889)
+[Subsystems] Discovering subsystems at path D:/Unity Saves/2022.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Game Development/Room VR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6400 (ID=0x743f)
+    Vendor:   ATI
+    VRAM:     4051 MB
+    Driver:   32.0.11037.4004
+Initialize mono
+Mono path[0] = 'D:/Unity Saves/2022.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Saves/2022.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity Saves/2022.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Saves/2022.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity Saves/2022.3.25f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity Saves/2022.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015229 seconds.
+- Loaded All Assemblies, in  1.648 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 863 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.415 seconds
+Domain Reload Profiling: 3063ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (465ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (107ms)
+	LoadAllAssembliesAndSetupDomain (879ms)
+		LoadAssemblies (173ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (876ms)
+			TypeCache.Refresh (874ms)
+				TypeCache.ScanAssembly (854ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (1415ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1317ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1045ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (149ms)
+			ProcessInitializeOnLoadMethodAttributes (115ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.231 seconds
+Refreshing native plugins compatible for Editor in 3.18 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.988 seconds
+Domain Reload Profiling: 2219ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (891ms)
+		LoadAssemblies (478ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (540ms)
+			TypeCache.Refresh (472ms)
+				TypeCache.ScanAssembly (367ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (39ms)
+	FinalizeReload (989ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (768ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (518ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4935 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (350.5 KB). Loaded Objects now: 5400.
+Memory consumption went from 207.1 MB to 206.8 MB.
+Total: 5.861300 ms (FindLiveObjects: 0.645300 ms CreateObjectMapping: 0.785600 ms MarkObjects: 3.969600 ms  DeleteObjects: 0.458700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 31899.804642 seconds.
+  path: Assets/Kitchen Asset/FBX/Board/Materials/No Name.mat
+  artifactKey: Guid(b4add4af7e9b71844b1000c9228ea072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Asset/FBX/Board/Materials/No Name.mat using Guid(b4add4af7e9b71844b1000c9228ea072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cb5d956d9d94513d4eb0a2542fbd0773') in 0.368912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Radish.prefab
+  artifactKey: Guid(b9540c48868eed447899c59106e84332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Radish.prefab using Guid(b9540c48868eed447899c59106e84332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb085e3e411bfa1d07b5828adceaa16') in 0.421113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Kitchen Asset/FBX/PanDeep/RollingPin/Materials/RollingPin_DefaultMaterial_AO.tga
+  artifactKey: Guid(11bf4b3cba812aa47bef071a095f40f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Asset/FBX/PanDeep/RollingPin/Materials/RollingPin_DefaultMaterial_AO.tga using Guid(11bf4b3cba812aa47bef071a095f40f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '311952acfc664b04af10d01fd92ba516') in 0.138547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Potato.prefab
+  artifactKey: Guid(40a19664feea8334db2619ea861570be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Potato.prefab using Guid(40a19664feea8334db2619ea861570be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a051a569afb80696a0da306aca61904d') in 0.021851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FastMesh/Materials/Yellow.mat
+  artifactKey: Guid(e693240d725361745aa59affa27bf055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Yellow.mat using Guid(e693240d725361745aa59affa27bf055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '887c4491c5bc0d5e2727b7711746da76') in 0.012868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FastMesh/Materials/Vege 2.mat
+  artifactKey: Guid(1962c7028389e424f9c78934256f65d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Vege 2.mat using Guid(1962c7028389e424f9c78934256f65d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '05f8b5a173d04efb8e5474c05f2756c4') in 0.016961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Tomato.prefab
+  artifactKey: Guid(00caac431abf7f948a559001b86d5377) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Tomato.prefab using Guid(00caac431abf7f948a559001b86d5377) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a7e18a4dc7a8afc427b032f7887b969e') in 0.030055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/FastMesh/Materials/Vege 3.mat
+  artifactKey: Guid(7bf19d870bcdfae4a98d594edcead82c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Vege 3.mat using Guid(7bf19d870bcdfae4a98d594edcead82c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a3b2be85a63c4e9ea6ae113f3595b85d') in 0.013163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/FastMesh/Materials/Vege 5.mat
+  artifactKey: Guid(fac4ad3bd9a8a3f489da36b2b27bfa01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Vege 5.mat using Guid(fac4ad3bd9a8a3f489da36b2b27bfa01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4dd0794b6f20dba224a584eac1ad3a30') in 0.013487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/FastMesh/Materials/Red 1.mat
+  artifactKey: Guid(750a2b6dee8857c41b8a1d5b4dc76739) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Red 1.mat using Guid(750a2b6dee8857c41b8a1d5b4dc76739) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b2a2b9938085c4e414b1ba7fff2db746') in 0.013311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FastMesh/Meshs/Vegetable/Vege-Tomato.fbx
+  artifactKey: Guid(345031c1a68e43e49986ca55254369ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Meshs/Vegetable/Vege-Tomato.fbx using Guid(345031c1a68e43e49986ca55254369ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ebb69830fa4bebafdbc07f42ac27e807') in 0.043554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Eggplant.prefab
+  artifactKey: Guid(b8e705e315cf8a040891952b165fcfef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Eggplant.prefab using Guid(b8e705e315cf8a040891952b165fcfef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f571d214d7a68fc54612bb38ca60268b') in 0.012112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/FastMesh/Textures/vege-3.png
+  artifactKey: Guid(be5ec57f6966d1c479030a9ff52d8fb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Textures/vege-3.png using Guid(be5ec57f6966d1c479030a9ff52d8fb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '747c1fdf8f217f47ea663cb299fc56b1') in 0.025856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FastMesh/Materials/icon.mat
+  artifactKey: Guid(3a607970aa72a4444afedbebb6da3021) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/icon.mat using Guid(3a607970aa72a4444afedbebb6da3021) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b963220ce0179e4e6bc366dd6bf34121') in 0.011788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kitchen Asset/FBX/Cap/Cap/Materials/No Name.mat
+  artifactKey: Guid(f4b4f1aa901312e41a498cc0f001f56c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Asset/FBX/Cap/Cap/Materials/No Name.mat using Guid(f4b4f1aa901312e41a498cc0f001f56c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4327eed91aff93dfc51a1551ac423001') in 0.026542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Onion.prefab
+  artifactKey: Guid(82bc687cfdfe7214ba50879e1603bd0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Onion.prefab using Guid(82bc687cfdfe7214ba50879e1603bd0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb09706d01d45af15f69e1bfeebfb8af') in 0.021507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Cucumber.prefab
+  artifactKey: Guid(9604e785e0c65f94aa22cfd3f926f4be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Cucumber.prefab using Guid(9604e785e0c65f94aa22cfd3f926f4be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ddac038cafc5c4feba2d70ac621b9727') in 0.013825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-1 A.prefab
+  artifactKey: Guid(6d8835d47e6d71849a9fe6ba4d690ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-1 A.prefab using Guid(6d8835d47e6d71849a9fe6ba4d690ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77a3b856e6e508ff9d31c35ef43bf59') in 0.016450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-2 B.prefab
+  artifactKey: Guid(8d1fc4dbbb62424459233d008379192e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-2 B.prefab using Guid(8d1fc4dbbb62424459233d008379192e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376dd4d844e030f33f91e753d4d211f7') in 0.015329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Kitchen Asset/FBX/PanDeep/RollingPin/Materials/RollingPin_DefaultMaterial_AlbedoTransparency.tga
+  artifactKey: Guid(2943e4f61e1c89b40bc5694b81489696) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Asset/FBX/PanDeep/RollingPin/Materials/RollingPin_DefaultMaterial_AlbedoTransparency.tga using Guid(2943e4f61e1c89b40bc5694b81489696) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5dc1dd95df1d6c6359369d233d6da8d6') in 0.024391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FastMesh/Scripts/SceneViewText.cs
+  artifactKey: Guid(9549876df73b7e04bac73492fd5b95c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Scripts/SceneViewText.cs using Guid(9549876df73b7e04bac73492fd5b95c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9409e7db2e324a065be911ff2b068798') in 0.011929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Kitchen Asset/FBX/CornFlakes/Materials/No Name.mat
+  artifactKey: Guid(3244396186b08ec42bd08a74adfc8f86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Asset/FBX/CornFlakes/Materials/No Name.mat using Guid(3244396186b08ec42bd08a74adfc8f86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '70fe0b9aea65b70b944a8f2697bb9ccf') in 0.024694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FastMesh/Textures/vege-5.png
+  artifactKey: Guid(0cff52f30f72ebd46a816cf45e9c23ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Textures/vege-5.png using Guid(0cff52f30f72ebd46a816cf45e9c23ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'af5cb43fb006906b8d9e48e66c315993') in 0.023777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Kitchen Asset/FBX/DeepPlate/Materials/No Name.mat
+  artifactKey: Guid(4054709429ebdde4eaff3df064a6f38d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Asset/FBX/DeepPlate/Materials/No Name.mat using Guid(4054709429ebdde4eaff3df064a6f38d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '74e6e32d951b635fd1a825c2ed23138d') in 0.024903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FastMesh/Materials/Red 2.mat
+  artifactKey: Guid(33e53089655962a439d2cccd8853a2e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Red 2.mat using Guid(33e53089655962a439d2cccd8853a2e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7f47672dbe3f7f79d594aaa27ce523e8') in 0.011595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FastMesh/Meshs/Vegetable/Vege-Pumpkin.fbx
+  artifactKey: Guid(bc668f9c305302340a115d5f2ee1dba0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Meshs/Vegetable/Vege-Pumpkin.fbx using Guid(bc668f9c305302340a115d5f2ee1dba0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e548a0db849f31627b126a5578ed13c5') in 0.020879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FastMesh/Materials/Green.mat
+  artifactKey: Guid(ef8f8cdf51f21c44181cc620e7aa5d0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Green.mat using Guid(ef8f8cdf51f21c44181cc620e7aa5d0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ba87508fd41ce75ec34aee6318f2f2c6') in 0.011155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kitchen Asset/FBX/PanDeep/RollingPin/Materials/RollingPin_DefaultMaterial_MetallicSmoothness.tga
+  artifactKey: Guid(aeb22e1f6f7c2a0439266f8bac35e91d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Asset/FBX/PanDeep/RollingPin/Materials/RollingPin_DefaultMaterial_MetallicSmoothness.tga using Guid(aeb22e1f6f7c2a0439266f8bac35e91d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6d992fdac9b05cfbeb6496f84b594339') in 0.022784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FastMesh/Materials/Vege 6.mat
+  artifactKey: Guid(52e824033e8e1f349889ecbf2f2fa845) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Vege 6.mat using Guid(52e824033e8e1f349889ecbf2f2fa845) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '194827a06a57ef7aab2dfe7298b44d35') in 0.012651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Kitchen Asset/FBX/Apple/Materials/Apple.mat
+  artifactKey: Guid(011ab7b260fc68c49a22a2db88c66ccb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Asset/FBX/Apple/Materials/Apple.mat using Guid(011ab7b260fc68c49a22a2db88c66ccb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7bea3c8814a287c3a74a40eb86fe1933') in 0.034504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FastMesh/Materials/GreenDark 2.mat
+  artifactKey: Guid(6d73b8dcbf518214196866ab33ceade6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/GreenDark 2.mat using Guid(6d73b8dcbf518214196866ab33ceade6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5b5a30ec01ecc397f08224cb4700785f') in 0.014815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Carrot.prefab
+  artifactKey: Guid(51a67f3bc21583a409feb699124a9203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Carrot.prefab using Guid(51a67f3bc21583a409feb699124a9203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1472e89974fad7ce70eed17951a4226b') in 0.023768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Kitchen Asset/FBX/BottleMilk/Bottle/Materials/No Name.mat
+  artifactKey: Guid(8d0da79ef176fcd4c9beeee9d5a34bec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Asset/FBX/BottleMilk/Bottle/Materials/No Name.mat using Guid(8d0da79ef176fcd4c9beeee9d5a34bec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2bb2d0beb53fd1afadd22cf8d89cc61d') in 0.034236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Corn.prefab
+  artifactKey: Guid(72fbbc82042296e46b8e9934dde56182) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Corn.prefab using Guid(72fbbc82042296e46b8e9934dde56182) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '064c9cb333282dc6c587730baafee30c') in 0.015271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FastMesh/Materials/Steel 2.mat
+  artifactKey: Guid(7eb1df4fcbfc19c42ba0cedb12a877bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Steel 2.mat using Guid(7eb1df4fcbfc19c42ba0cedb12a877bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9ee2ebde1915b0f722ae9d584cb11382') in 0.014628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Pumpkin.prefab
+  artifactKey: Guid(1cf8ce11929d19e4698c429008616a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Pumpkin.prefab using Guid(1cf8ce11929d19e4698c429008616a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b58150d8c3a1a7e563793f78644a4e') in 0.018718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Fruit-Apple A.prefab
+  artifactKey: Guid(3a3c0a4585e7b384384084b37b116bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Fruit-Apple A.prefab using Guid(3a3c0a4585e7b384384084b37b116bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234924a6614a6295c0b9aa1c0e798835') in 0.023836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Cabbage.prefab
+  artifactKey: Guid(6656824cf076ff94184db46112f19a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Cabbage.prefab using Guid(6656824cf076ff94184db46112f19a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f001ced11dae3306624dc161f21a8989') in 0.020149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Kitchen Asset/FBX/Cap/Handle/Materials/No Name.mat
+  artifactKey: Guid(f5b02251fbb07c1469aaf23c5e45b572) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Asset/FBX/Cap/Handle/Materials/No Name.mat using Guid(f5b02251fbb07c1469aaf23c5e45b572) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '084583b46029d1634d52bb9e67589077') in 0.031181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FastMesh/README.txt
+  artifactKey: Guid(710a8f9e197e33247b6a9c6ac10dfc8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/README.txt using Guid(710a8f9e197e33247b6a9c6ac10dfc8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b44543a32424b6e842c1d7325cc1747') in 0.012373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FastMesh/Materials/Vege 4.mat
+  artifactKey: Guid(1baa1e1b06451ce4bbce43a4e2df244a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Vege 4.mat using Guid(1baa1e1b06451ce4bbce43a4e2df244a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9141d0e28f52d51e5a0c19844ba78f1b') in 0.017928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-2 A.prefab
+  artifactKey: Guid(efa9d74a5e9e9df4cbab1d53bf9a8ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-2 A.prefab using Guid(efa9d74a5e9e9df4cbab1d53bf9a8ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b69d7574f58d9ef5d68b34cfa6e31d') in 0.024040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Cucumber.prefab
+  artifactKey: Guid(9604e785e0c65f94aa22cfd3f926f4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Cucumber.prefab using Guid(9604e785e0c65f94aa22cfd3f926f4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ccaec38ebb1a5459ead6fe2a5b14cbf') in 0.021391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Kitchen Asset/FBX/Knife/Materials/No Name.mat
+  artifactKey: Guid(ebc61b15eeeb53d4caec90b75dbf5dab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Asset/FBX/Knife/Materials/No Name.mat using Guid(ebc61b15eeeb53d4caec90b75dbf5dab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '152aa94a6d678bdb225a5adf8d25a21b') in 0.031980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-1 A.prefab
+  artifactKey: Guid(6d8835d47e6d71849a9fe6ba4d690ff9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-1 A.prefab using Guid(6d8835d47e6d71849a9fe6ba4d690ff9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f53b75dd4c0b9c9c4dbfe9d4e87dbe29') in 0.015592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Pumpkin.prefab
+  artifactKey: Guid(1cf8ce11929d19e4698c429008616a1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Pumpkin.prefab using Guid(1cf8ce11929d19e4698c429008616a1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '485923e114aed0053b628f1b94543282') in 0.014540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Corn.prefab
+  artifactKey: Guid(72fbbc82042296e46b8e9934dde56182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Corn.prefab using Guid(72fbbc82042296e46b8e9934dde56182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cae3625ab114b185f1adf6ff3451936') in 0.025156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FastMesh/Fast Mesh - Unity Asset Store.url
+  artifactKey: Guid(3f31bab560d768a42bcae559bb2d1024) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Fast Mesh - Unity Asset Store.url using Guid(3f31bab560d768a42bcae559bb2d1024) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '75f74dc0fa5318f65c766bec1bd8e4a5') in 0.017703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FastMesh/Materials/wood 2.mat
+  artifactKey: Guid(7a6ea77746828b94ab099afff5a6965b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/wood 2.mat using Guid(7a6ea77746828b94ab099afff5a6965b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fb06ff5cf20983ba386d8c1445c90ef0') in 0.019063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Kitchen Asset/FBX/BottleMilk/Handle/Materials/No Name.mat
+  artifactKey: Guid(2f8c60e7935d97b45be18221202b5140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Asset/FBX/BottleMilk/Handle/Materials/No Name.mat using Guid(2f8c60e7935d97b45be18221202b5140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ba2eeaec0e742d2fff3bafb6204a3f3f') in 0.038499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-2 A.prefab
+  artifactKey: Guid(efa9d74a5e9e9df4cbab1d53bf9a8ef4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-2 A.prefab using Guid(efa9d74a5e9e9df4cbab1d53bf9a8ef4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0e578c069915081fb5463b927e9696a2') in 0.017919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FastMesh/Meshs/Vegetable/Fruit-Apple.fbx
+  artifactKey: Guid(21a5e737da77acc4195ea47fe697686d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Meshs/Vegetable/Fruit-Apple.fbx using Guid(21a5e737da77acc4195ea47fe697686d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '20c5d30ba09bdce39ce389ecbf103531') in 0.039038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/FastMesh/Materials/Green 4.mat
+  artifactKey: Guid(3fce648a3eec601439fdcdab54929696) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Green 4.mat using Guid(3fce648a3eec601439fdcdab54929696) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bdeb5632a3c0a9eafe3a0984bb42373b') in 0.017375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Ginger.prefab
+  artifactKey: Guid(e678fd707e0585040962c26cf9c55d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Ginger.prefab using Guid(e678fd707e0585040962c26cf9c55d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99b6c5b0721c5c897fbaae0abcc1328') in 0.029272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Kitchen Asset/FBX/PanDeep/Materials/No Name.mat
+  artifactKey: Guid(82a332284b702ef43b7c7f505db73821) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Asset/FBX/PanDeep/Materials/No Name.mat using Guid(82a332284b702ef43b7c7f505db73821) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b7bfbf6fd6705f8a216da546b729cf66') in 0.042691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FastMesh/Meshs/Vegetable/Vege-Carrot.fbx
+  artifactKey: Guid(feebb7afab02410489178b2d367773af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Meshs/Vegetable/Vege-Carrot.fbx using Guid(feebb7afab02410489178b2d367773af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ef21fb51da8520afa1320a2592204ba5') in 0.038991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/FastMesh/Materials/Yellow 1.mat
+  artifactKey: Guid(c6fdd430e1b673b47bbc345419a5f79b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Yellow 1.mat using Guid(c6fdd430e1b673b47bbc345419a5f79b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9e5f85c80053fd2e10c2de6082f17e2f') in 0.017642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FastMesh/Meshs/Vegetable/Vege-Radish.fbx
+  artifactKey: Guid(40d1e70227b41734d9ab7a585f5fad02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Meshs/Vegetable/Vege-Radish.fbx using Guid(40d1e70227b41734d9ab7a585f5fad02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c3a61fa49044318f9a99684af0f53d23') in 0.025113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kitchen Asset/FBX/Stand/Materials/No Name.mat
+  artifactKey: Guid(76c67e9f5cfbeb74589b4ad5ae6d9095) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Asset/FBX/Stand/Materials/No Name.mat using Guid(76c67e9f5cfbeb74589b4ad5ae6d9095) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd16425ad806f2c14d973734a36073d35') in 0.035153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Onion.prefab
+  artifactKey: Guid(82bc687cfdfe7214ba50879e1603bd0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Onion.prefab using Guid(82bc687cfdfe7214ba50879e1603bd0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '41ae16712612e539c1fe32668664ac47') in 0.018107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kitchen Asset/FBX/Pan/Materials/No Name.mat
+  artifactKey: Guid(06f65a5c4d297a647af668e0e4ed4b65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Asset/FBX/Pan/Materials/No Name.mat using Guid(06f65a5c4d297a647af668e0e4ed4b65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '83d1537a0a46a42da4769068ef43ab15') in 0.039237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kitchen Asset/FBX/Sauce/Sauce/Materials/No Name.mat
+  artifactKey: Guid(7469b88bff520c44a871cf58f425362c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Asset/FBX/Sauce/Sauce/Materials/No Name.mat using Guid(7469b88bff520c44a871cf58f425362c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ac96565f2b32932582430460c7462b39') in 0.039725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.001571 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1b55610640dfb460bdd2ab8f7e578215') in 0.019479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FastMesh/Materials/Red.mat
+  artifactKey: Guid(a14d011ae93b8f348bb995bebb356bab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Red.mat using Guid(a14d011ae93b8f348bb995bebb356bab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '80a535f12410e1e2532b2ad3c9535228') in 0.017092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FastMesh/Materials/Purple-Pink.mat
+  artifactKey: Guid(ca3b72b484b5ffe46bb3886a868c4bdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Purple-Pink.mat using Guid(ca3b72b484b5ffe46bb3886a868c4bdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'da75ffd186e144378c3492398f7d9825') in 0.016346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/FastMesh/Textures/vege-6.png
+  artifactKey: Guid(c355064800b58bb4789bc2a2137319af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Textures/vege-6.png using Guid(c355064800b58bb4789bc2a2137319af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd7ed4084a400e3613e76475f53f73b42') in 0.027149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FastMesh/Materials/Vege 7.mat
+  artifactKey: Guid(caacb5cc57f1a7846907ea480c84a6db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Vege 7.mat using Guid(caacb5cc57f1a7846907ea480c84a6db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5ba6787a3ee81344de29a73febad5654') in 0.020115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Fruit-Banana.prefab
+  artifactKey: Guid(3da8a04d633151f4f9041cfe43eff63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Fruit-Banana.prefab using Guid(3da8a04d633151f4f9041cfe43eff63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e4699c7ffab2bdaaa48fe859fa0721') in 0.020686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FastMesh/Textures/vege-2.png
+  artifactKey: Guid(d9958dbf6e6a1c34cbe051f653fcaca3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Textures/vege-2.png using Guid(d9958dbf6e6a1c34cbe051f653fcaca3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bce8e007ca2545162e5171a078caa71c') in 0.045011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FastMesh/Textures/vege-7.png
+  artifactKey: Guid(21e6f2ee36a13764e8da9c7bba95707c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Textures/vege-7.png using Guid(21e6f2ee36a13764e8da9c7bba95707c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '03b11458fc648894bd40c2bfa211f9c7') in 0.027568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FastMesh/Materials/Floor 1.mat
+  artifactKey: Guid(5a399a37821645240901d0b2234ce276) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Floor 1.mat using Guid(5a399a37821645240901d0b2234ce276) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dfed629adee2fc86a8206730dbbdc128') in 0.016850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Ginger.prefab
+  artifactKey: Guid(e678fd707e0585040962c26cf9c55d7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Ginger.prefab using Guid(e678fd707e0585040962c26cf9c55d7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4aff994b0d8a39b3a40c3b34bc8fd91e') in 0.030751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FastMesh/Meshs/Vegetable/Vege-Onion.fbx
+  artifactKey: Guid(3766dd78121310649a87b3f9daab5b36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Meshs/Vegetable/Vege-Onion.fbx using Guid(3766dd78121310649a87b3f9daab5b36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e1a21291099889165c41d733c544a424') in 0.032327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FastMesh/Textures/vege-1.png
+  artifactKey: Guid(42a671411445ac84ea6a9cafd6a127d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Textures/vege-1.png using Guid(42a671411445ac84ea6a9cafd6a127d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f21cdf701ddcadcfcbf5ca8368873e0a') in 0.028915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Radish.prefab
+  artifactKey: Guid(b9540c48868eed447899c59106e84332) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Radish.prefab using Guid(b9540c48868eed447899c59106e84332) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '53c43da69d88c3f656b779490a27c68d') in 0.017840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Fruit-Apple B.prefab
+  artifactKey: Guid(4583d83b3550ce74fb79db9f704ed3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Fruit-Apple B.prefab using Guid(4583d83b3550ce74fb79db9f704ed3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff7f02d7132c08d71aae158ef4e1abc') in 0.022474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Potato.prefab
+  artifactKey: Guid(40a19664feea8334db2619ea861570be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Potato.prefab using Guid(40a19664feea8334db2619ea861570be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f1aa082a5ca241da4819b5ea3ee5c239') in 0.022078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kitchen Asset/FBX/PanDeep/RollingPin/Materials/RollingPin_DefaultMaterial_Normal.tga
+  artifactKey: Guid(430078b0fc956af49be98f70cd0a5da4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Asset/FBX/PanDeep/RollingPin/Materials/RollingPin_DefaultMaterial_Normal.tga using Guid(430078b0fc956af49be98f70cd0a5da4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '39b01f0479acce40719c91f9784a062a') in 0.030382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-1 C.prefab
+  artifactKey: Guid(3e61e0994b58b5440816b3445f6b4592) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-1 C.prefab using Guid(3e61e0994b58b5440816b3445f6b4592) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '25c648f5da8a28fd4f6445d041575650') in 0.018264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Cabbage.prefab
+  artifactKey: Guid(6656824cf076ff94184db46112f19a7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Cabbage.prefab using Guid(6656824cf076ff94184db46112f19a7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '97df9ba01650c5aa6b7cfc45f06fcddf') in 0.022108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FastMesh/Meshs/Vegetable/Vege-Ginger.fbx
+  artifactKey: Guid(59132c0b9ea8c9f41b7f34201026795d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Meshs/Vegetable/Vege-Ginger.fbx using Guid(59132c0b9ea8c9f41b7f34201026795d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cd2ac87673a835bf51cf3d5c0ea024f9') in 0.034987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FastMesh/Meshs/Vegetable/Vege-Potato.fbx
+  artifactKey: Guid(6be3f7324f26ff04c83ef7f280f9fdd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Meshs/Vegetable/Vege-Potato.fbx using Guid(6be3f7324f26ff04c83ef7f280f9fdd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fd99918e4c28346fcdd3a12d70315762') in 0.027364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Eggplant.prefab
+  artifactKey: Guid(b8e705e315cf8a040891952b165fcfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Eggplant.prefab using Guid(b8e705e315cf8a040891952b165fcfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23c1f4dfde5102ef2695d13a4d40343') in 0.022792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Fruit-Pear.prefab
+  artifactKey: Guid(d0fcd494f0113c346885b9dd01426e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Fruit-Pear.prefab using Guid(d0fcd494f0113c346885b9dd01426e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3575dc8762db1e776df752cee803a4') in 0.021684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FastMesh/Meshs/Vegetable/Vege-Pepper-1.fbx
+  artifactKey: Guid(5d160fc72336ee24aa1feea32646302a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Meshs/Vegetable/Vege-Pepper-1.fbx using Guid(5d160fc72336ee24aa1feea32646302a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '211bf5d36fe51264096cc5a16851288b') in 0.030914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Kitchen Asset/FBX/Plates/Plate2/Materials/No Name.mat
+  artifactKey: Guid(a1dc450f8495ef24abe2c375ada5aa71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Asset/FBX/Plates/Plate2/Materials/No Name.mat using Guid(a1dc450f8495ef24abe2c375ada5aa71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '25bb02d60b5c0efda0642bf737d39acd') in 0.041639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kitchen Asset/FBX/Lemon/Materials/No Name.mat
+  artifactKey: Guid(797cddef76ae5c349a5dfb2aba228ad0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Asset/FBX/Lemon/Materials/No Name.mat using Guid(797cddef76ae5c349a5dfb2aba228ad0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '201753debf9ed73cb6fc30b9ad9efab8') in 0.045428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Fruit-Apple B.prefab
+  artifactKey: Guid(4583d83b3550ce74fb79db9f704ed3e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Fruit-Apple B.prefab using Guid(4583d83b3550ce74fb79db9f704ed3e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8a9f2e595d43341233caaf78c709645c') in 0.018558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/FastMesh/Textures/vege-4.png
+  artifactKey: Guid(68070cc65062414478b30ff9303484f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Textures/vege-4.png using Guid(68070cc65062414478b30ff9303484f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f8585e98662df4b0a118f1268933720d') in 0.026375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Kitchen Asset/FBX/Knife2/Materials/No Name.mat
+  artifactKey: Guid(8836c686b0fb1954e88d983faaf9484c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Asset/FBX/Knife2/Materials/No Name.mat using Guid(8836c686b0fb1954e88d983faaf9484c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1d05c0a8cb5f524d99243edb2920f8bf') in 0.030403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FastMesh/Meshs/Vegetable/Fruit-Banana.fbx
+  artifactKey: Guid(30fa6322490659b4e81f12d31c267b8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Meshs/Vegetable/Fruit-Banana.fbx using Guid(30fa6322490659b4e81f12d31c267b8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'deeb1bca7e769975f4934ea431d78daa') in 0.026772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/FastMesh/Meshs/Vegetable/Vege-Cabbage.fbx
+  artifactKey: Guid(d40ac4182e6f3eb4cbf05c50635c0565) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Meshs/Vegetable/Vege-Cabbage.fbx using Guid(d40ac4182e6f3eb4cbf05c50635c0565) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fcd49e11e36bf128ce4ff853ced8f5a5') in 0.026982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kitchen Asset/FBX/PanDeep/RollingPin/RollingPin.fbx
+  artifactKey: Guid(d48d2e1ce52832346b8d792e2f0f2180) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Asset/FBX/PanDeep/RollingPin/RollingPin.fbx using Guid(d48d2e1ce52832346b8d792e2f0f2180) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '08183acf0d58a274b33d11508a488eb3') in 0.038765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-1 C.prefab
+  artifactKey: Guid(3e61e0994b58b5440816b3445f6b4592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-1 C.prefab using Guid(3e61e0994b58b5440816b3445f6b4592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4937e317e360c756c8b5d9fc382ad6') in 0.020231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Fruit-Banana.prefab
+  artifactKey: Guid(3da8a04d633151f4f9041cfe43eff63c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Fruit-Banana.prefab using Guid(3da8a04d633151f4f9041cfe43eff63c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '82171cf468bffb4bb0adbdce646aab61') in 0.014828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FastMesh/Meshs/Vegetable/Vege-Eggplant.fbx
+  artifactKey: Guid(83f22d96788ecf046b4ee3c4d0960bd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Meshs/Vegetable/Vege-Eggplant.fbx using Guid(83f22d96788ecf046b4ee3c4d0960bd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2a45e2380209c9fc8c31fe9733dd7aad') in 0.027591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/FastMesh/Materials/Vege 1.mat
+  artifactKey: Guid(8ef52dc24d0d34a4a9a91210feed974d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Vege 1.mat using Guid(8ef52dc24d0d34a4a9a91210feed974d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cb854f005e81c869cb4a468d32cb40e7') in 0.016202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FastMesh/Scenes/Scene Vegetable.unity
+  artifactKey: Guid(812f7d8dd061f294aa2677ddaa694d32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Scenes/Scene Vegetable.unity using Guid(812f7d8dd061f294aa2677ddaa694d32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2af1362fe07fa219497bdcc3285fd65b') in 0.012322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/FastMesh/Materials/GreenDark 1.mat
+  artifactKey: Guid(731c99c754e807e4c90c2be3b2129ec7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/GreenDark 1.mat using Guid(731c99c754e807e4c90c2be3b2129ec7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bd6c3f482575327eb0decfa58db19fa9') in 0.014882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Fruit-Apple A.prefab
+  artifactKey: Guid(3a3c0a4585e7b384384084b37b116bf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Fruit-Apple A.prefab using Guid(3a3c0a4585e7b384384084b37b116bf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c8529185b8983e3fdcdb508d193367c8') in 0.016968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Fruit-Pear.prefab
+  artifactKey: Guid(d0fcd494f0113c346885b9dd01426e37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Fruit-Pear.prefab using Guid(d0fcd494f0113c346885b9dd01426e37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b39b095483704052be584df744f34413') in 0.016549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FastMesh/Meshs/Vegetable/Vege-Pepper-2.fbx
+  artifactKey: Guid(13d9ef576d0d0fd4496386f863430a99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Meshs/Vegetable/Vege-Pepper-2.fbx using Guid(13d9ef576d0d0fd4496386f863430a99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b955629a6e909305753e4a52b9b0b8b4') in 0.025627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-1 B.prefab
+  artifactKey: Guid(08a51f0ad8d35574ba551f9515660bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-1 B.prefab using Guid(08a51f0ad8d35574ba551f9515660bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78ee0f569b9776c07b9a020393ad610') in 0.019662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Tomato.prefab
+  artifactKey: Guid(00caac431abf7f948a559001b86d5377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Tomato.prefab using Guid(00caac431abf7f948a559001b86d5377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf34b91eb68bc1daca9a1575adfc408') in 0.021054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Kitchen Asset/FBX/PanDeep/RollingPin/Materials/No Name.mat
+  artifactKey: Guid(4dd62189731c31a4d940c6b6779c75f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Kitchen Asset/FBX/PanDeep/RollingPin/Materials/No Name.mat using Guid(4dd62189731c31a4d940c6b6779c75f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '14a3e2c3724ea840a30eceef39408a0d') in 0.026368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-1 B.prefab
+  artifactKey: Guid(08a51f0ad8d35574ba551f9515660bd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-1 B.prefab using Guid(08a51f0ad8d35574ba551f9515660bd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bccf0c3df66b826f2ee7f5b7d0439df9') in 0.012334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-2 B.prefab
+  artifactKey: Guid(8d1fc4dbbb62424459233d008379192e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-2 B.prefab using Guid(8d1fc4dbbb62424459233d008379192e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0b8e1406ba695e39bedbebd10a65a5a5') in 0.012072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FastMesh/Meshs/Vegetable/Vege-Corn.fbx
+  artifactKey: Guid(557aa6d33f7690a4a9e4eefcd515b51c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Meshs/Vegetable/Vege-Corn.fbx using Guid(557aa6d33f7690a4a9e4eefcd515b51c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c55ebd712a6788e34b6d7fba4d7df2c2') in 0.030792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FastMesh/Meshs/Vegetable/Fruit-Pear.fbx
+  artifactKey: Guid(aba7048baedaae24c829a486ae82643a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Meshs/Vegetable/Fruit-Pear.fbx using Guid(aba7048baedaae24c829a486ae82643a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd230a0fc2ca41e3ce3aaca19ac8ecb63') in 0.021588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Carrot.prefab
+  artifactKey: Guid(51a67f3bc21583a409feb699124a9203) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Carrot.prefab using Guid(51a67f3bc21583a409feb699124a9203) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '130c2b27b4d96b2b4d0857b70097525e') in 0.011800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FastMesh/Meshs/Vegetable/Vege-Cucumber.fbx
+  artifactKey: Guid(47c257bd89769c2468ca04658d8db4e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Meshs/Vegetable/Vege-Cucumber.fbx using Guid(47c257bd89769c2468ca04658d8db4e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '206d7da764153a4f3fcd066991bbd2c1') in 0.020797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 131.116406 seconds.
+  path: Assets/FastMesh/Materials/Meshs/Vegetable
+  artifactKey: Guid(be518fbf46c839245b3feb99549c9d46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Meshs/Vegetable using Guid(be518fbf46c839245b3feb99549c9d46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '30b4d636aa116105cafaddeaf59d2444') in 0.013150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Tomato.fbx
+  artifactKey: Guid(345031c1a68e43e49986ca55254369ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Tomato.fbx using Guid(345031c1a68e43e49986ca55254369ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd76289c74f1d9297aed59dc631ed58c9') in 0.031525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Pumpkin.fbx
+  artifactKey: Guid(bc668f9c305302340a115d5f2ee1dba0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Pumpkin.fbx using Guid(bc668f9c305302340a115d5f2ee1dba0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '086d27a5d922dc0561a479b64919336f') in 0.021917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FastMesh/Materials/Meshs/Vegetable/Fruit-Apple.fbx
+  artifactKey: Guid(21a5e737da77acc4195ea47fe697686d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Meshs/Vegetable/Fruit-Apple.fbx using Guid(21a5e737da77acc4195ea47fe697686d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '998870f4ee160401e97f160c468ae149') in 0.024790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Carrot.fbx
+  artifactKey: Guid(feebb7afab02410489178b2d367773af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Carrot.fbx using Guid(feebb7afab02410489178b2d367773af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f157ec0dbfe63caf09145ca010607ca') in 0.030838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Radish.fbx
+  artifactKey: Guid(40d1e70227b41734d9ab7a585f5fad02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Radish.fbx using Guid(40d1e70227b41734d9ab7a585f5fad02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fa9190602f0866fc0ac0a25dc8db72e2') in 0.018245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Onion.fbx
+  artifactKey: Guid(3766dd78121310649a87b3f9daab5b36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Onion.fbx using Guid(3766dd78121310649a87b3f9daab5b36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'db6f7de6510e77bc0a0559f8cf243580') in 0.066311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.006114 seconds.
+  path: Assets/FastMesh/Materials/Meshs
+  artifactKey: Guid(e2ae77b877656894cab19b990215bbc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Meshs using Guid(e2ae77b877656894cab19b990215bbc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '168962794a962d749a2f69866c027a4d') in 0.011934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Ginger.fbx
+  artifactKey: Guid(59132c0b9ea8c9f41b7f34201026795d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Ginger.fbx using Guid(59132c0b9ea8c9f41b7f34201026795d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4aeaf507342bfe199d139bbd9685bd9a') in 0.021641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Potato.fbx
+  artifactKey: Guid(6be3f7324f26ff04c83ef7f280f9fdd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Potato.fbx using Guid(6be3f7324f26ff04c83ef7f280f9fdd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '937f06a88eba95295d0ffc5c86aed177') in 0.020032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Pepper-1.fbx
+  artifactKey: Guid(5d160fc72336ee24aa1feea32646302a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Pepper-1.fbx using Guid(5d160fc72336ee24aa1feea32646302a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dbbd6251e054e10df2719202dfee416e') in 0.024403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FastMesh/Materials/Meshs/Vegetable/Fruit-Banana.fbx
+  artifactKey: Guid(30fa6322490659b4e81f12d31c267b8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Meshs/Vegetable/Fruit-Banana.fbx using Guid(30fa6322490659b4e81f12d31c267b8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '746870e735e18d6e57c0938bd26ac537') in 0.020761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Cabbage.fbx
+  artifactKey: Guid(d40ac4182e6f3eb4cbf05c50635c0565) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Cabbage.fbx using Guid(d40ac4182e6f3eb4cbf05c50635c0565) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '59c57c47610b96487916801e977cbbcf') in 0.022469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Eggplant.fbx
+  artifactKey: Guid(83f22d96788ecf046b4ee3c4d0960bd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Eggplant.fbx using Guid(83f22d96788ecf046b4ee3c4d0960bd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1d18e47f47730bef6a2a40f56c7b5c05') in 0.023884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Pepper-2.fbx
+  artifactKey: Guid(13d9ef576d0d0fd4496386f863430a99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Pepper-2.fbx using Guid(13d9ef576d0d0fd4496386f863430a99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ec047ff60ab1060fea80e9876089811e') in 0.020682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Corn.fbx
+  artifactKey: Guid(557aa6d33f7690a4a9e4eefcd515b51c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Corn.fbx using Guid(557aa6d33f7690a4a9e4eefcd515b51c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5878e3a9bf5a5ce50134ba0dc89b554c') in 0.027930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/FastMesh/Materials/Meshs/Vegetable/Fruit-Pear.fbx
+  artifactKey: Guid(aba7048baedaae24c829a486ae82643a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Meshs/Vegetable/Fruit-Pear.fbx using Guid(aba7048baedaae24c829a486ae82643a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '02b33775caee95842d17d3fcb77ecb6a') in 0.025281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Cucumber.fbx
+  artifactKey: Guid(47c257bd89769c2468ca04658d8db4e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Meshs/Vegetable/Vege-Cucumber.fbx using Guid(47c257bd89769c2468ca04658d8db4e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c60a98c132af35f9aa76fea9038d965b') in 0.020244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 430.652370 seconds.
+  path: Assets/FastMesh/Materials/Red 1.mat
+  artifactKey: Guid(750a2b6dee8857c41b8a1d5b4dc76739) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Red 1.mat using Guid(750a2b6dee8857c41b8a1d5b4dc76739) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5ea38c3026ce776b3a09705b7f56e1cb') in 0.017071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/FastMesh/Materials/Green.mat
+  artifactKey: Guid(ef8f8cdf51f21c44181cc620e7aa5d0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Green.mat using Guid(ef8f8cdf51f21c44181cc620e7aa5d0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c22065aae508b51cc419e577a72d5425') in 0.014796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/FastMesh/Materials/wood 2.mat
+  artifactKey: Guid(7a6ea77746828b94ab099afff5a6965b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/wood 2.mat using Guid(7a6ea77746828b94ab099afff5a6965b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6b87ae350014ce871400cb867f4265ad') in 0.017702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FastMesh/Materials/Yellow 1.mat
+  artifactKey: Guid(c6fdd430e1b673b47bbc345419a5f79b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Yellow 1.mat using Guid(c6fdd430e1b673b47bbc345419a5f79b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c35d960de3957ec3317c2adb00202597') in 0.014065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6aff0942377deb866cdf66482f2b7a78') in 0.012095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 177.532223 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ea95a4584ee3c977359d063ea92c7454') in 0.013089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 73.506743 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aeab7c7e7d1256d0a7dd259e7bedce75') in 0.026231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.933271 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Fruit-Apple A.prefab
+  artifactKey: Guid(3a3c0a4585e7b384384084b37b116bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Fruit-Apple A.prefab using Guid(3a3c0a4585e7b384384084b37b116bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c4326483e32debe63b9801d2d165e2') in 0.052341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Carrot.prefab
+  artifactKey: Guid(51a67f3bc21583a409feb699124a9203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Carrot.prefab using Guid(51a67f3bc21583a409feb699124a9203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb1150fe9db7c0affaf211da06e6f0b') in 0.028481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Fruit-Apple B.prefab
+  artifactKey: Guid(4583d83b3550ce74fb79db9f704ed3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Fruit-Apple B.prefab using Guid(4583d83b3550ce74fb79db9f704ed3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caca2a916b81723cdd3797c00819320a') in 0.019975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Eggplant.prefab
+  artifactKey: Guid(b8e705e315cf8a040891952b165fcfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Eggplant.prefab using Guid(b8e705e315cf8a040891952b165fcfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff25e21267513bf3731c6b7b8fe4f5c') in 0.021549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-1 A.prefab
+  artifactKey: Guid(6d8835d47e6d71849a9fe6ba4d690ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-1 A.prefab using Guid(6d8835d47e6d71849a9fe6ba4d690ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4cf61eee32729bd315b408352e14093') in 0.016915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Fruit-Pear.prefab
+  artifactKey: Guid(d0fcd494f0113c346885b9dd01426e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Fruit-Pear.prefab using Guid(d0fcd494f0113c346885b9dd01426e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b4b4223740acde09cf47d336879f8a') in 0.018530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.941428 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-1 C.prefab
+  artifactKey: Guid(3e61e0994b58b5440816b3445f6b4592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-1 C.prefab using Guid(3e61e0994b58b5440816b3445f6b4592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b726b4dc9777b3a1ae03b54aee8a527') in 0.016577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Radish.prefab
+  artifactKey: Guid(b9540c48868eed447899c59106e84332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Radish.prefab using Guid(b9540c48868eed447899c59106e84332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbe63cc4041a783f13aabb603a6962b') in 0.020367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-2 B.prefab
+  artifactKey: Guid(8d1fc4dbbb62424459233d008379192e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-2 B.prefab using Guid(8d1fc4dbbb62424459233d008379192e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ebd0a4f2a485b4b14d74e72def78c0') in 0.015046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 66.179052 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Corn.prefab
+  artifactKey: Guid(72fbbc82042296e46b8e9934dde56182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Corn.prefab using Guid(72fbbc82042296e46b8e9934dde56182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f438973f4a8b2b91c55ecb0166095ad') in 0.020171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.901693 seconds.
+  path: Assets/FastMesh/Materials/Green 4.mat
+  artifactKey: Guid(3fce648a3eec601439fdcdab54929696) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Green 4.mat using Guid(3fce648a3eec601439fdcdab54929696) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '78da06eb227c4ea280593df8509c1ff2') in 0.017100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/FastMesh/Materials/Vege 6.mat
+  artifactKey: Guid(52e824033e8e1f349889ecbf2f2fa845) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Vege 6.mat using Guid(52e824033e8e1f349889ecbf2f2fa845) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c1b03b1af1a64d0345da25fc2a31e9f4') in 0.016789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '78a0c1a44a8d98d457ffff2bc95add04') in 0.013970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.368565 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Pumpkin.prefab
+  artifactKey: Guid(1cf8ce11929d19e4698c429008616a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Pumpkin.prefab using Guid(1cf8ce11929d19e4698c429008616a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9d930417e04cbaaff42d0ee822bf49') in 0.015128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 1.584426 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Fruit-Apple B.prefab
+  artifactKey: Guid(4583d83b3550ce74fb79db9f704ed3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Fruit-Apple B.prefab using Guid(4583d83b3550ce74fb79db9f704ed3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc9167d4d2bc69cbfeca0cd5aa4457d') in 0.014755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 196.172803 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Cabbage.prefab
+  artifactKey: Guid(6656824cf076ff94184db46112f19a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Cabbage.prefab using Guid(6656824cf076ff94184db46112f19a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1ced58532fbcffb067980cfae645c5') in 0.034175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Carrot.prefab
+  artifactKey: Guid(51a67f3bc21583a409feb699124a9203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Carrot.prefab using Guid(51a67f3bc21583a409feb699124a9203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2834fedcd7603d56c348ca19f3d71a4d') in 0.017061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Eggplant.prefab
+  artifactKey: Guid(b8e705e315cf8a040891952b165fcfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Eggplant.prefab using Guid(b8e705e315cf8a040891952b165fcfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2848cd0fa00044b10fe6eeb178594d2b') in 0.012726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.846036 seconds.
+  path: Assets/FastMesh/Materials/Vege 3.mat
+  artifactKey: Guid(7bf19d870bcdfae4a98d594edcead82c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Vege 3.mat using Guid(7bf19d870bcdfae4a98d594edcead82c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5a5e79861a8f1517e7582096436dd49d') in 0.023043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FastMesh/Materials/icon.mat
+  artifactKey: Guid(3a607970aa72a4444afedbebb6da3021) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/icon.mat using Guid(3a607970aa72a4444afedbebb6da3021) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e7fe180f159ae55cce1586805786da5e') in 0.023636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '80b129356e9902c579024780580a24b6') in 0.014183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FastMesh/Materials/Vege 1.mat
+  artifactKey: Guid(8ef52dc24d0d34a4a9a91210feed974d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Vege 1.mat using Guid(8ef52dc24d0d34a4a9a91210feed974d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3cbb2102119494f35682a65dcd13864b') in 0.019690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 148.994275 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Onion.prefab
+  artifactKey: Guid(82bc687cfdfe7214ba50879e1603bd0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Onion.prefab using Guid(82bc687cfdfe7214ba50879e1603bd0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99584fa6ad190f04a76909aecde5da8') in 0.030231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-1 A.prefab
+  artifactKey: Guid(6d8835d47e6d71849a9fe6ba4d690ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-1 A.prefab using Guid(6d8835d47e6d71849a9fe6ba4d690ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b878b0bebb8335177bab70952c7ede') in 0.019003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-2 B.prefab
+  artifactKey: Guid(8d1fc4dbbb62424459233d008379192e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-2 B.prefab using Guid(8d1fc4dbbb62424459233d008379192e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da9ebad0a592551fc5fb6b0977f3bba') in 0.016893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-2 A.prefab
+  artifactKey: Guid(efa9d74a5e9e9df4cbab1d53bf9a8ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-2 A.prefab using Guid(efa9d74a5e9e9df4cbab1d53bf9a8ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22541eb44db49a09a01a1f5d10fce9d9') in 0.024130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-1 C.prefab
+  artifactKey: Guid(3e61e0994b58b5440816b3445f6b4592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-1 C.prefab using Guid(3e61e0994b58b5440816b3445f6b4592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ae6c652601e45884153ccb94881b2b') in 0.013081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-1 B.prefab
+  artifactKey: Guid(08a51f0ad8d35574ba551f9515660bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Pepper-1 B.prefab using Guid(08a51f0ad8d35574ba551f9515660bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79a4618c3c691690a56a741b397d501') in 0.016003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.757203 seconds.
+  path: Assets/FastMesh/Materials/GreenDark 1.mat
+  artifactKey: Guid(731c99c754e807e4c90c2be3b2129ec7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/GreenDark 1.mat using Guid(731c99c754e807e4c90c2be3b2129ec7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2d4e4511db986b422af055b2171c003b') in 0.016429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FastMesh/Materials/Yellow.mat
+  artifactKey: Guid(e693240d725361745aa59affa27bf055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/Yellow.mat using Guid(e693240d725361745aa59affa27bf055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6075d506ea9cce33c62a342b3fc9931a') in 0.018651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FastMesh/Materials/GreenDark 2.mat
+  artifactKey: Guid(6d73b8dcbf518214196866ab33ceade6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FastMesh/Materials/GreenDark 2.mat using Guid(6d73b8dcbf518214196866ab33ceade6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c5085fdd73398654e8b0c23c9259d83b') in 0.021346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '86f8d9652c476f4145dde5a2b14d937f') in 0.013791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.253026 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Tomato.prefab
+  artifactKey: Guid(00caac431abf7f948a559001b86d5377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Tomato.prefab using Guid(00caac431abf7f948a559001b86d5377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e4f7f5019752590ab035935ba805e2') in 0.015872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 2.012489 seconds.
+  path: Assets/FastMesh/Textures/vege-1.png
+  artifactKey: Guid(42a671411445ac84ea6a9cafd6a127d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Textures/vege-1.png using Guid(42a671411445ac84ea6a9cafd6a127d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2592ccabacd475f90fb9cc1bb892f471') in 0.116903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FastMesh/Textures/vege-3.png
+  artifactKey: Guid(be5ec57f6966d1c479030a9ff52d8fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Textures/vege-3.png using Guid(be5ec57f6966d1c479030a9ff52d8fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96128e716f0e0c87078f9955a78ec4f0') in 0.027629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FastMesh/Textures/vege-7.png
+  artifactKey: Guid(21e6f2ee36a13764e8da9c7bba95707c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Textures/vege-7.png using Guid(21e6f2ee36a13764e8da9c7bba95707c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1335150977e44885b2c9ced2f03def9') in 0.027950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/FastMesh/Textures/vege-4.png
+  artifactKey: Guid(68070cc65062414478b30ff9303484f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Textures/vege-4.png using Guid(68070cc65062414478b30ff9303484f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc50e0ef6adfcdcacf28bed3fab5f6a') in 0.050653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001277 seconds.
+  path: Assets/FastMesh/Textures/vege-2.png
+  artifactKey: Guid(d9958dbf6e6a1c34cbe051f653fcaca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Textures/vege-2.png using Guid(d9958dbf6e6a1c34cbe051f653fcaca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308d85cdd0ceedb384b584c9c141ad91') in 0.020646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/FastMesh/Textures/vege-6.png
+  artifactKey: Guid(c355064800b58bb4789bc2a2137319af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Textures/vege-6.png using Guid(c355064800b58bb4789bc2a2137319af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a439e05b59fd2b98b59df5f6c6e2e172') in 0.020203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FastMesh/Textures/vege-5.png
+  artifactKey: Guid(0cff52f30f72ebd46a816cf45e9c23ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Textures/vege-5.png using Guid(0cff52f30f72ebd46a816cf45e9c23ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce96898de3c28b7e67dea98c183ce029') in 0.033744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 40.257714 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Fruit-Banana.prefab
+  artifactKey: Guid(3da8a04d633151f4f9041cfe43eff63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Fruit-Banana.prefab using Guid(3da8a04d633151f4f9041cfe43eff63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d66492982e631b3abd9704783d1df6') in 0.015691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FastMesh/Prefabs/Vegetable/Vege-Cucumber.prefab
+  artifactKey: Guid(9604e785e0c65f94aa22cfd3f926f4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FastMesh/Prefabs/Vegetable/Vege-Cucumber.prefab using Guid(9604e785e0c65f94aa22cfd3f926f4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdde1666750c35f0d1c5c655da105a08') in 0.022655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 7.840456 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1d81d7f2bfb8c8c675e645b825861425') in 0.051102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 181.712393 seconds.
+  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)Minifridge.prefab
+  artifactKey: Guid(c5495f7852c483f41945b90c27fcb2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)Minifridge.prefab using Guid(c5495f7852c483f41945b90c27fcb2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91a981578604e64fe5b367747f00659') in 0.069393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 109
+========================================================================
+Received Import Request.
+  Time since last request: 0.888752 seconds.
+  path: Assets/nappin/House Props Softpack/Prefabs/(Prb)Minifridge.prefab
+  artifactKey: Guid(c5495f7852c483f41945b90c27fcb2f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/nappin/House Props Softpack/Prefabs/(Prb)Minifridge.prefab using Guid(c5495f7852c483f41945b90c27fcb2f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fd3cfd7f235c8667d1101e032dc32bd5') in 0.019711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 103
+========================================================================
+Received Import Request.
+  Time since last request: 138.702291 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3cf25782fb7d8298586c0eb45d14f55a') in 0.010913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 61.823398 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f9c87cf6e60173028bfaeb9c85e34a0a') in 0.013699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
